@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:fillViewport="false"
+    tools:context=".help">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Frequently Asked Questions (FAQs)"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-thin"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" How to Login Your Account "
+            android:drawableLeft="@drawable/bookmark"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="17dp"
+            android:drawablePadding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginRight="30dp"
+            android:fontFamily="@font/poly"
+            android:text="@string/Account_Related"
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Have You Forgotted Your \n Password"
+            android:drawableLeft="@drawable/bookmark"
+            android:drawablePadding="10dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="17dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Password_Related"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:fontFamily="@font/poly" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" How to View Your Profile Details"
+            android:drawableLeft="@drawable/bookmark"
+            android:drawablePadding="10dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="17dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Profile_Related"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:fontFamily="@font/poly" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" How to Logout Your App"
+            android:drawableLeft="@drawable/bookmark"
+            android:drawablePadding="10dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="17dp"
+            android:fontFamily="@font/poly" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/LogOut_Related"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:fontFamily="@font/poly" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" How to Share Meeting ID"
+            android:drawableLeft="@drawable/bookmark"
+            android:drawablePadding="10dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="17dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Share_Related"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:fontFamily="@font/poly" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" How to Generate Meeting ID"
+            android:drawableLeft="@drawable/bookmark"
+            android:drawablePadding="10dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="17dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ID_Related"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:fontFamily="@font/poly" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" How to Join Meeting"
+            android:drawableLeft="@drawable/bookmark"
+            android:drawablePadding="10dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="17dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Join_Related"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:fontFamily="@font/poly"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" How to Add Meeting Password"
+            android:drawableLeft="@drawable/bookmark"
+            android:drawablePadding="10dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="17dp"
+            android:fontFamily="@font/poly" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/AddMeetingPassword"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:fontFamily="@font/poly" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" How to Add Name in Meeting"
+            android:drawableLeft="@drawable/bookmark"
+            android:drawablePadding="10dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="17dp"
+            android:fontFamily="@font/poly" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/AddMeetingName"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:fontFamily="@font/poly" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" How to Enable/Exit TileView"
+            android:drawableLeft="@drawable/bookmark"
+            android:drawablePadding="10dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="17dp"
+            android:fontFamily="@font/poly" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Tileview_Related"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:fontFamily="@font/poly" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" What is Lobby Mode"
+            android:drawableLeft="@drawable/bookmark"
+            android:drawablePadding="10dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="17dp"
+            android:fontFamily="@font/poly" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/LobbyMode"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:fontFamily="@font/poly" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" What is Low Bandwidth Mode"
+            android:drawableLeft="@drawable/bookmark"
+            android:drawablePadding="10dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="17dp"
+            android:fontFamily="@font/poly" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/LowBandwidthMode"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:fontFamily="@font/poly" />
+
+
+
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" How to Know about O2 Academia"
+            android:drawableLeft="@drawable/bookmark"
+            android:drawablePadding="10dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="17dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Support_Related"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:fontFamily="@font/poly" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" How to Contact With O2 Academia"
+            android:drawableLeft="@drawable/bookmark"
+            android:drawablePadding="10dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="17dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Contact_Related"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:fontFamily="@font/poly" />-->
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+
+
+
+
+    <!-- <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="73dp"
+            android:layout_height="49dp"
+            android:layout_margin="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.742"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.38"
+            tools:ignore="RtlHardcoded" />-->

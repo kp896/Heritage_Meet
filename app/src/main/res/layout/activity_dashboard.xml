@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome_login_bg_updated"
+    tools:context=".DashboardActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.313"
+        tools:layout_editor_absoluteX="57dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@drawable/textbox_greengradient"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                app:srcCompat="@drawable/hmeet_logo"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:fontFamily="@font/poly"
+                android:text="Please Insert / Share this Code to start Video Meeting"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/codeBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/secret_code_shape"
+                android:ems="10"
+                android:gravity="center"
+                android:fontFamily="@font/poly"
+                android:hint="Correct Secret Code"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textColor="#000" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/joinBtn"
+                    android:layout_width="306dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_style_join"
+                    android:drawableStart="@drawable/join"
+                    android:fontFamily="@font/stoke_light"
+                    android:gravity="center"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="20dp"
+                    android:text="Join"
+                    android:textColor="@android:color/white" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/autoid"
+                    android:layout_width="310dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_style_autoid"
+                    android:drawableStart="@drawable/auto_id"
+                    android:fontFamily="@font/stoke_light"
+                    android:paddingLeft="11dp"
+                    android:paddingRight="15dp"
+                    android:text="Auto-Id"
+                    android:textColor="@android:color/white" />
+
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/scheduleBtn"
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="8.5dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_style_share"
+                android:clickable="true"
+                android:drawableStart="@drawable/schedule"
+                android:drawablePadding="11dp"
+                android:gravity="center"
+                android:fontFamily="@font/stoke_light"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="Schedule"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+
+            <TextView
+                android:id="@+id/chTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:text="Click to Choose Time"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:fontFamily="@font/poly"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/chDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:clickable="true"
+                android:text="Click to Choose Date"
+                android:textAlignment="center"
+                android:fontFamily="@font/poly"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/subject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/subject_bg"
+                android:clickable="true"
+                android:hint="Subject"
+                android:inputType="text"
+                android:fontFamily="@font/poly"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:visibility="gone" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/shareBtn"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_style_share"
+                android:clickable="true"
+                android:drawableStart="@drawable/share"
+                android:drawablePadding="20dp"
+                android:paddingLeft="20dp"
+                android:paddingEnd="30dp"
+                android:text="Share"
+                android:fontFamily="@font/stoke_light"
+                android:textColor="@android:color/white"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="28dp"
+        app:fab_expandDirection="left"
+        app:fab_addButtonColorPressed="#FFF"
+        app:fab_addButtonColorNormal="@color/design_default_color_primary_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.806"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatbutton_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:backgroundTint="#FFF"
+            app:fab_addButtonColorNormal="#FFF"
+            app:fab_colorPressed="#FFF"
+            android:paddingBottom="15dp"
+            android:src="@drawable/account"
+            app:fab_size="mini" />
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

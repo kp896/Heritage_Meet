@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "52542259680",
+    "project_id": "o2-meet",
+    "storage_bucket": "o2-meet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52542259680:android:f27d8b154797070f346b85",
+        "android_client_info": {
+          "package_name": "com.example.o2meet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "52542259680-4c72j2guaun4ah86v1r58upidhfp4fnm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRXYORv1xpzGaBwzbeP-M1SwFRW_F0Z08"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "52542259680-4c72j2guaun4ah86v1r58upidhfp4fnm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
